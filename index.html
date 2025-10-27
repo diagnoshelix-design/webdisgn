@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HELIX Klinik & Laboratorium</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+<div class="container">
+<div class="header-content">
+<div class="logo">
+<img src="https://z-cdn-media.chatglm.cn/files/7cd7c36a-abcd-4b11-b061-df930047fa60_pasted_image_1757991365478.png?auth_key=1789527487-82f5ac0f0192417fb33ba5978328eac8-0-4c1cdbf3a754b6cf3b6a5c593a7c5365" alt="HELIX Klinik & Laboratorium" class="logo-img">
+</div>
+
+<nav id="main-nav">
+<ul>
+<li><a href="#home" data-translate="nav_home">Beranda</a></li>
+<li><a href="#about" data-translate="nav_about">Tentang</a></li>
+<li><a href="#services" data-translate="nav_services">Layanan</a></li>
+<li><a href="#contact" data-translate="nav_contact">Kontak</a></li>
+</ul>
+</nav>
+
+<div class="header-actions">
+<div class="lang-dropdown">
+<button class="lang-btn" id="lang-btn" title="Ganti Bahasa">
+<i class="fas fa-globe"></i>
+<span id="current-lang">ID</span>
+<i class="fas fa-chevron-down lang-arrow"></i>
+</button>
+<div class="lang-menu" id="lang-menu">
+<a href="#" class="lang-option active" data-lang="id">
+<i class="fas fa-check"></i>
+<span data-translate="lang_id">Bahasa Indonesia</span>
+</a>
+<a href="#" class="lang-option" data-lang="en">
+<i class="fas fa-globe"></i>
+<span data-translate="lang_en">English</span>
+</a>
+</div>
+</div>
+
+<button class="mobile-menu-btn" id="mobile-menu-btn">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+<div class="hero-bg"></div>
+<div class="hero-overlay"></div>
+<div class="container">
+<div class="hero-content">
+<h1 data-translate="hero_title">Partner Terpercaya Layanan Kesehatan Inovatif & Akurat</h1>
+<p data-translate="hero_subtitle">HELIX Klinik & Laboratorium menyediakan layanan medis berkualitas tinggi dengan staf profesional dan teknologi canggih.</p>
+
+<div class="hero-buttons">
+<a href="#contact" class="btn btn-orange-outline" data-translate="hero_btn_book">Booking Pemeriksaan</a>
+<a href="#services" class="btn btn-outline" data-translate="hero_btn_services">Lihat Layanan</a>
+</div>
+
+<!-- Stats -->
+<div class="stats">
+<div class="stat-item">
+<div class="stat-number">5+</div>
+<div class="stat-label" data-translate="stat_experience">Tahun Pengalaman</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">50,000+</div>
+<div class="stat-label" data-translate="stat_customers">Pelanggan Dilayani</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">6+</div>
+<div class="stat-label" data-translate="stat_locations">Lokasi</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">4.9/5</div>
+<div class="stat-label" data-translate="stat_rating">Peringkat Layanan</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section about">
+<div class="container">
+<div class="section-title">
+<h2 data-translate="about_title">Tentang Kami</h2>
+</div>
+<div class="about-content">
+<p data-translate="about_description">HELIX Klinik & Laboratorium adalah mitra terpercaya dalam layanan kesehatan yang inovatif dan akurat. Kami berkomitmen untuk memberikan pelayanan terbaik dengan dukungan teknologi modern dan tenaga medis profesional.</p>
+
+<div class="vision-mission">
+<div class="vm-card">
+<div class="vm-icon">
+<i class="fas fa-bullseye"></i>
+</div>
+<h3 data-translate="vision_title">Visi</h3>
+<p data-translate="vision_description">Menjadi penyedia layanan kesehatan terdepan yang terpercaya dengan dukungan teknologi modern.</p>
+</div>
+<div class="vm-card">
+<div class="vm-icon">
+<i class="fas fa-tasks"></i>
+</div>
+<h3 data-translate="mission_title">Misi</h3>
+<p data-translate="mission_description">Memberikan layanan diagnostik yang cepat, akurat, dan inovatif untuk meningkatkan kepuasan pasien.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="section services">
+<div class="container">
+<div class="section-title">
+<h2 data-translate="services_title">Layanan Kami</h2>
+</div>
+<div class="services-grid">
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-user-check"></i>
+</div>
+<div class="service-content">
+<h3 data-translate="service_mcu_title">Medical Check Up (MCU)</h3>
+<p data-translate="service_mcu_description">Pemeriksaan kesehatan lengkap untuk karyawan dengan berbagai paket sesuai kebutuhan perusahaan. Dilengkapi dengan Smart MCU Report untuk analisa yang komprehensif.</p>
+<a href="#contact" class="btn" data-translate="service_mcu_btn">Pesan Sekarang</a>
+</div>
+</div>
+<div class="service-card">
+<div class="service-icon">
+<i class="fas fa-clinic-medical"></i>
+</div>
+<div class="service-content">
+<h3 data-translate="service_inhouse_title">Klinik Inhouse</h3>
+<p data-translate="service_inhouse_description">Layanan klinik perusahaan terpadu dengan tenaga medis profesional dan peralatan lengkap. Kami mengelola klinik perusahaan Anda dari perencanaan hingga monitoring.</p>
+<a href="#contact" class="btn" data-translate="service_inhouse_btn">Konsultasi Gratis</a>
+</div>
+</div>
+<div class="service-card" style="display:none;">
+<div class="service-icon">
+<i class="fas fa-dna"></i>
+</div>
+<div class="service-content">
+<h3 data-translate="service_genomic_title" style="display: no;">Tes Genomik</h3>
+<p data-translate="service_genomic_description">Genetic screening yang dapat memberikan informasi tentang profil genetik personal untuk mendukung produktivitas dan kesehatan jangka panjang karyawan.</p>
+<a href="#contact" class="btn" data-translate="service_genomic_btn">Pelajari Lebih Lanjut</a>
+</div>
+</div>
+<div class="service-card" style="display:none;">
+<div class="service-icon">
+<i class="fas fa-apple-alt"></i>
+</div>
+<div class="service-content">
+<h3 data-translate="service_nutrition_title">Nutrisi & Makanan Sehat</h3>
+<p data-translate="service_nutrition_description">Layanan nutrigenomic test, konsultasi gizi, dan penyediaan makanan sehat untuk mendukung produktivitas dan kesehatan karyawan perusahaan.</p>
+<a href="#contact" class="btn" data-translate="service_nutrition_btn">Daftar Sekarang</a>
+</div>
+</div>
+</div>
+
+<!-- Comparison Table -->
+<div class="comparison-table" style="display:none;">
+<h3 data-translate="comparison_title">Perbandingan Layanan Korporat</h3>
+<table>
+<thead>
+<tr>
+<th data-translate="comparison_feature">Fitur</th>
+<th data-translate="comparison_mcu">MCU</th>
+<th data-translate="comparison_inhouse">Klinik Inhouse</th>
+<th data-translate="comparison_genomic">Tes Genomik</th>
+<th data-translate="comparison_nutrition">Nutrisi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="feature-name" data-translate="feature_onsite">Layanan On-site</td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="no"><i class="fas fa-circle"></i></td>
+<td class="partial"><i class="fas fa-minus-circle"></i></td>
+</tr>
+<tr>
+<td class="feature-name" data-translate="feature_digital_report">Laporan Digital</td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="no"><i class="fas fa-circle"></i></td>
+</tr>
+<tr>
+<td class="feature-name" data-translate="feature_doctor_consult">Konsultasi Dokter</td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="partial"><i class="fas fa-minus-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+</tr>
+<tr>
+<td class="feature-name" data-translate="feature_health_session">Sesi Kesehatan</td>
+<td class="no"><i class="fas fa-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="no"><i class="fas fa-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+</tr>
+<tr>
+<td class="feature-name" data-translate="feature_personalized">Program Personalized</td>
+<td class="no"><i class="fas fa-circle"></i></td>
+<td class="partial"><i class="fas fa-minus-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+<td class="check"><i class="fas fa-check-circle"></i></td>
+</tr>
+</tbody>
+</table>
+<div class="table-legend">
+<div class="legend-item">
+<i class="fas fa-check-circle check"></i>
+<span data-translate="legend_available">Tersedia</span>
+</div>
+<div class="legend-item">
+<i class="fas fa-minus-circle partial"></i>
+<span data-translate="legend_limited">Terbatas</span>
+</div>
+<div class="legend-item">
+<i class="fas fa-circle no"></i>
+<span data-translate="legend_unavailable">Tidak Tersedia</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Why Choose Section -->
+<section id="why" class="section">
+<div class="container">
+<div class="section-title">
+<h2 data-translate="why_title">Mengapa Memilih Layanan Kami?</h2>
+</div>
+<div class="why-grid">
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-building"></i>
+</div>
+<h3 data-translate="why_comprehensive">Layanan Komprehensif</h3>
+<p data-translate="why_comprehensive_desc">Solusi kesehatan terpadu</p>
+</div>
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-user-md"></i>
+</div>
+<h3 data-translate="why_professional">Staf Profesional</h3>
+<p data-translate="why_professional_desc">Tim medis berpengalaman</p>
+</div>
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-chart-line"></i>
+</div>
+<h3 data-translate="why_productivity">Tingkatkan Produktivitas</h3>
+<p data-translate="why_productivity_desc">Karyawan sehat, kinerja optimal</p>
+</div>
+<div class="why-card">
+<div class="why-icon">
+<i class="fas fa-laptop-medical"></i>
+</div>
+<h3 data-translate="why_technology">Teknologi Canggih</h3>
+<p data-translate="why_technology_desc">Sistem digital & laporan real-time</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="section testimonials">
+<div class="container">
+<div class="section-title">
+<h2 data-translate="testimonials_title">Apa Kata Mereka</h2>
+</div>
+<div class="testimonials-grid">
+<div class="testimonial-card">
+<div class="testimonial-text">
+"Proses pendaftaran dapat dilakukan secara online/ offline. Setelah mendaftar di counter, pasien akan diminta untuk menunggu di luar. Jika tidak mencantumkan nama, pasien bisa memberitahukan via WhatsApp dan hasilnya bisa diambil 24 jam kemudian. Terima kasih Helix Laboratorium."
+</div>
+<div class="testimonial-author">
+<div class="author-avatar">
+<i class="fas fa-user"></i>
+</div>
+<div class="author-info">
+<h4>Lestari Fitriawati</h4>
+<p>Local Guide</p>
+<div class="rating">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="testimonial-card">
+<div class="testimonial-text">
+"Layanan medis yang sangat baik dan staf administrasi yang ramah. Tersedia konsultasi dokter gratis dan paket home care yang mencakup pemeriksaan dada dengan harga yang terjangkau. Hasil tidak diberitahukan secara langsung, tetapi bisa dikonsultasikan melalui telepon atau walk in. The Best dehh."
+</div>
+<div class="testimonial-author">
+<div class="author-avatar">
+<i class="fas fa-user"></i>
+</div>
+<div class="author-info">
+<h4>Fitr Rachma Wati</h4>
+<p>Local Guide</p>
+<div class="rating">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+<div class="container">
+<div class="section-title">
+<h2 data-translate="contact_title">Kontak Kami</h2>
+</div>
+<div class="contact-wrapper">
+<div class="contact-form">
+<h3 data-translate="contact_form_title">Konsultasi Layanan</h3>
+<form id="contactForm" onsubmit="submitForm(event)">
+<div class="form-group">
+<input type="text" class="form-control" id="name" name="name" placeholder="Nama Lengkap" data-placeholder="form_name" required>
+</div>
+<div class="form-group">
+<input type="email" class="form-control" id="email" name="email" placeholder="Email" data-placeholder="form_email" required>
+</div>
+<div class="form-group">
+<input type="tel" class="form-control" id="phone" name="phone" placeholder="Nomor Telepon" data-placeholder="form_phone" required>
+</div>
+<div class="form-group">
+<textarea class="form-control" id="message" name="message" placeholder="Pesan" data-placeholder="form_message"></textarea>
+</div>
+<button type="submit" class="btn" id="submit-btn" data-translate="form_submit">Kirim Pesan</button>
+</form>
+</div>
+<div class="contact-info-map">
+<div class="contact-info">
+<h3 data-translate="contact_info_title">Informasi Kontak</h3>
+<div class="info-item">
+<div class="info-icon">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<div class="info-text">
+<h4 data-translate="contact_address">Alamat</h4>
+<p>Gd. Graha Anam, Jl. Teuku Cik Ditiro 1 No.11 Lt. 2, RW.2, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350</p>
+</div>
+</div>
+<div class="info-item">
+<div class="info-icon">
+<i class="fas fa-phone-alt"></i>
+</div>
+<div class="info-text">
+<h4 data-translate="contact_phone">Telepon</h4>
+<p>+62 855 - 1500 - 358</p>
+</div>
+</div>
+<div class="info-item">
+<div class="info-icon">
+<i class="fab fa-whatsapp"></i>
+</div>
+<div class="info-text">
+<h4 data-translate="contact_whatsapp">WhatsApp</h4>
+<p>+62 855 - 1500 - 358</p>
+</div>
+</div>
+<div class="info-item">
+<div class="info-icon">
+<i class="fas fa-clock"></i>
+</div>
+<div class="info-text">
+<h4 data-translate="contact_hours">Jam Operasional</h4>
+<p>Setiap hari: 07.00 - 22.00</p>
+<p>(Senin - Minggu)</p>
+</div>
+</div>
+</div>
+<div class="map-container">
+<h3 data-translate="map_title">Lokasi Kami</h3>
+<div class="map-wrapper">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.667799514633!2d106.8296!3d-6.1944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9b0c2!2sGraha%20Anam!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid" 
+allowfullscreen="" 
+loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
+<div class="map-directions">
+<a href="https://www.google.com/maps/dir/?api=1&destination=Jl.+Teuku+Cik+Ditiro+1+No.11,+Gondangdia,+Menteng,+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10350" 
+target="_blank" 
+class="btn" 
+data-translate="map_directions">
+Petunjuk Arah
+</a>
+<a href="https://www.google.com/maps/place/Jl.+Teuku+Cik+Ditiro+1+No.11,+Gondangdia,+Menteng,+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10350/@-6.1944,106.8296,17z" 
+target="_blank" 
+class="btn-map-view" 
+data-translate="map_view_large">
+Lihat Peta Lebih Besar
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/628551500358?text=Hello%20Helix%21%20Saya%20tertarik%20dengan%20layanan%20kesehatan%20korporat%20Anda" class="whatsapp-float" target="_blank">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Footer -->
+<footer>
+<div class="container">
+<div class="footer-content">
+<div class="footer-column">
+<div class="logo" style="margin-bottom: 20px;">
+<img src="https://z-cdn-media.chatglm.cn/files/7cd7c36a-abcd-4b11-b061-df930047fa60_pasted_image_1757991365478.png?auth_key=1789527487-82f5ac0f0192417fb33ba5978328eac8-0-4c1cdbf3a754b6cf3b6a5c593a7c5365" alt="HELIX Klinik & Laboratorium" class="logo-img" style="filter: brightness(0) invert(1);">
+</div>
+<p data-translate="footer_description">Menyediakan layanan kesehatan berkualitas dengan teknologi canggih dan staf profesional.</p>
+<div class="social-icons">
+<a href="https://www.instagram.com/helixlab.id/?hl=id" class="social-icon" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
+</div>
+<div class="footer-column">
+<h3 data-translate="footer_services_title">Layanan Korporat</h3>
+<ul>
+<li><a href="#services" data-translate="footer_services_mcu">Medical Check Up (MCU)</a></li>
+<li><a href="#services" data-translate="footer_services_inhouse">Klinik Inhouse</a></li>
+<li><a href="#contact" data-translate="footer_services_consultation">Konsultasi</a></li>
+</ul>
+</div>
+<div class="footer-column">
+<h3 data-translate="footer_info_title">Informasi</h3>
+<ul>
+<li><a href="#about" data-translate="footer_info_about">Tentang Kami</a></li>
+<li><a href="#" data-translate="footer_info_career">Karir</a></li>
+<li><a href="#" data-translate="footer_info_blog">Blog</a></li>
+<li><a href="#" data-translate="footer_info_faq">FAQ</a></li>
+</ul>
+</div>
+<div class="footer-column">
+<h3 data-translate="footer_contact_title">Kontak</h3>
+<ul>
+<li data-translate="footer_contact_address">Gd. Graha Anam, Jl. Teuku Cik Ditiro 1 No.11 Lt. 2, Menteng, Jakarta Pusat</li>
+<li>Telepon: +62 855-1500-358</li>
+<li>WhatsApp: +62 855-1500-358</li>
+<li>Email: info@helixlab.co.id</li>
+<li>Setiap hari: 07.00 - 22.00</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p data-translate="footer_copyright">&copy; 2025 HELIX × Diagnos — Semua hak cipta dilindungi.</p>
+</div>
+</div>
+</footer>
+
+<!-- Notification Element -->
+<div id="notification" class="notification"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
